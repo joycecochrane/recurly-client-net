@@ -15,7 +15,7 @@ namespace Recurly.Resources
     public class LineItem : Resource
     {
 
-
+        /// <value>Account mini details</value>
         [JsonProperty("account")]
         public AccountMini Account { get; set; }
 
@@ -173,7 +173,7 @@ namespace Recurly.Resources
         [JsonProperty("tax_exempt")]
         public bool? TaxExempt { get; set; }
 
-
+        /// <value>Tax info</value>
         [JsonProperty("tax_info")]
         public TaxInfo TaxInfo { get; set; }
 
